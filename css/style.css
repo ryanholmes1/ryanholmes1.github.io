@@ -1,2 +1,44 @@
 /* CSS Document */
 
+main {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	size: 10px;
+}
+
+nav {
+	font-family: "Sans-serif", Verdana;
+	background: black;
+	display: inherit;
+	width: 100%;
+	height: 50px;
+}
+
+li a {
+	list-style-type: none;
+	font-family: "Sans-serif", Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	font-variant: small-caps;
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	float: right;
+}
+
+li a:hover {
+	background-color:#484848;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	font-family: "Sans-serif", Verdana;
+	background: black;
+	position: fixed;
+	width:100%;
+	color: white;
+	float: right;
+}
