@@ -5,6 +5,7 @@ main {
 	size: 10px;
 	padding: 0px;
 	margin: 0px;
+	width: 100%;
 }
 
 li a {
@@ -31,8 +32,7 @@ ul {
 	overflow: hidden;
 	font-family: "Sans-serif", Verdana;
 	background: black;
-	position: fixed;
+	display: inline;
 	color: white;
-	float: right;
 	width: 100%
 }
