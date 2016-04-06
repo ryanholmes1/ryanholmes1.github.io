@@ -3,9 +3,6 @@
 main {
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
 	size: 10px;
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
 }
 
 li a {
@@ -33,6 +30,7 @@ ul {
 	font-family: "Sans-serif", Verdana;
 	background: black;
 	display: inline;
+	position: fixed;
 	color: white;
 	width: 100%
 }
