@@ -5,14 +5,6 @@ main {
 	size: 10px;
 }
 
-nav {
-	font-family: "Sans-serif", Verdana;
-	background: black;
-	position: fixed;
-	width: 100%;
-	height: 50px;
-}
-
 li a {
 	list-style-type: none;
 	font-family: "Sans-serif", Verdana;
