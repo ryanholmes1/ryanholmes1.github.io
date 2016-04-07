@@ -1,8 +1,9 @@
 /* CSS Document */
 
-main {
+body {
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
 	size: 10px;
+	margin: 0;
 }
 
 li a {
@@ -32,5 +33,21 @@ ul {
 	display: inline;
 	position: fixed;
 	color: white;
-	width: 100%
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	
 }
+
+.main {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+	
