@@ -91,3 +91,11 @@ ul {
     margin:0 auto;
     width: 250px;
 }
+
+.floating-text {
+	color: white;
+	background-color: transparent;
+	font-family: "Sans-serif", Verdana;
+	font-size: 15px;
+	font-weight: bold;
+}
