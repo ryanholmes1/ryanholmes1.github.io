@@ -82,3 +82,19 @@ ul {
     width: 100px;
     height: 100px;
 }
+
+#left {
+	float: left;
+	width: 100%;
+}
+
+#right {
+	float: right;
+	width: 100%;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:100px;
+}
