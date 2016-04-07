@@ -66,7 +66,7 @@ ul {
 .row {
 	margin-left: -15px;
 	margin-right: -15px;
-	float: left;
+	width: 110px;
 }
 
 .box-md-1 {
