@@ -85,16 +85,16 @@ ul {
 
 #left {
 	float: left;
-	width: 100%;
+	width: 250px;
 }
 
 #right {
 	float: right;
-	width: 100%;
+	width: 250px;
 }
 
 #center {
     display: inline-block;
     margin:0 auto;
-    width:100px;
+    width: 250px;
 }
