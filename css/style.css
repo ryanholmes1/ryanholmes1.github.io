@@ -61,7 +61,6 @@ ul {
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	display: block;
 }
 
 .row {
@@ -75,11 +74,6 @@ ul {
 	min-height: 1px;
 	padding-left: 15px;
 	padding-right: 15px;
-}
-
-#container-box > div {
-    width: 100px;
-    height: 100px;
 }
 
 #left {
