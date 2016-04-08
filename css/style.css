@@ -115,6 +115,7 @@ ul {
 #image {
     position: absolute;
     left: 0;
+    top: 40px
 }
 
 #banner{
