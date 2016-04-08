@@ -57,6 +57,24 @@ ul {
 	text-align: center;
 }
 
+#portfolio {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#aboutme {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#contactme {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
 .container-box {
 	margin-right: auto;
 	margin-left: auto;
@@ -121,4 +139,11 @@ ul {
 #banner{
     width: 1734px;
     height: 319px;
+}
+
+.aboutme {
+    width: 500px;
+    align-content: center;
+    display: inline-block;
+    text-align: left;
 }
