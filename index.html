@@ -8,12 +8,7 @@
     <body>
     <script src="jquery.js" type="text/javascript"></script>
 <script type="text/javascript">
-    // Smooth scrolling to element IDs
-    $('a[href^=#]:not([href=#])').on('click', function () {
-        var element = $($(this).attr('href'));
-        $('html,body').animate({ scrollTop: element.offset().top },'normal', 'swing');
-        return false;
-    });
+    $('html,body').animate({ scrollTop: scrollPosition }, speed); 
 </script>
     
     	<nav>
