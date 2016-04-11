@@ -2,14 +2,27 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Ryan Holmes - Freelance web developer based in Paignton</title>
-        
+         
     </head>
 
     <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script type="text/javascript">
-    $('html,body').animate({ scrollTop: scrollPosition }, speed); 
-</script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+          <script type="text/javascript">
+              $(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});</script>
     
     	<nav>
         	<ul>
@@ -84,9 +97,7 @@
         <section id="contactme">
             
         </section>
-    
-          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+        
           
 </body>
 
