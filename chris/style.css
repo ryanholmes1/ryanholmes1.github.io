@@ -116,4 +116,5 @@ ul {
 .social {
     float: right;
     background: #356C95;
+    vertical-align: center;
 }
