@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Elris CE - The Complete Advertising Solution</title>
+    </head>
+    
+    <body>  
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+          <script type="text/javascript">
+              $(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 500, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});</script>
+         
+        <nav>
+        	<ul>
+            	<li style="float: left;"><a href="/" id="pull">Elris CE</a></li>
+            	<li><a href="#aboutme">About</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+    
+        <section class="main" id="main">
+        	<div class="container">
+                  <div id="banner" class="banner">
+                      <center><img id="image" src="img/banner.jpg" /></center>
+                      <div class="floating-text"><center><h1>Elris CE<BR>The Complete Advertising Solution</h1></center></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="welcome" id="welcome">
+            <div class="row">
+                <h1>Welcome to Elris CE</h1>
+            </div>
+             <div class="row">
+     Elris CE are an advertising solution. We work with clients where we are looking to find the best form of advertising for our client, rather than break your budget. Whether our client is looking for high end such as TV or radio, going down to the most simple social media package, Elris CE are here to find the correct solution for you.
+             </div>
+            </div>
+        </section>
+        
+        <section class="aboutme" id="aboutme">
+            <div class="row">
+                <h1>About Elris CE</h1>
+            </div>
+        	<div class="row">
+                <p>Elris CE have one intention within advertising.... to make sure that the needs of our customers come first. We are looking to work with our clients to make sure that the highest possible levels of service are reached, whilst looking to maximise all opportunities. Quite simply, if a solution does not work, we will not recommend it for you!</p>
+ 
+                <p>With a proven history within advertising and marketing, Elris CE will work with clients if they are looking for any solution. Whether high end advertising such as TV and radio, through mid level such as national / local press, leafletting and billboards or simply a comprehensive social media campaign, Elris CE will make sure that we are able to provide advertising whatever your budget. </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contactme" id="contactme">
+            <div class="row">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="row"> 
+Phone 01803 459264<BR>
+Mob: 07546 564235<BR>
+email: elrisce@gmail.com</div>
+        </section>
+        
+        <div class="footer" id="footer">
+            Elris CE&reg; <BR>
+            Copyright &copy;2016
+            
+        </div>
+    
+    </body>
+</html>

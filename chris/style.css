@@ -1,0 +1,114 @@
+/* Coded by Ryan Holmes */
+/* For more information please visit me */
+/* W: http://ryanholmes1.github.io */
+/* E: ryan.c.holmes@me.com */
+
+body {
+    /* background-color:  #4A8FC3; */
+    overflow-x: 0px;
+    overflow-y: 0px;
+    margin: 0px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    display: inline-block;
+    width:  100%;
+}
+
+li a {
+	display: block;
+	float: right;
+	padding: 14px 16px;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 15px;
+	font-family: "Sans-serif", Verdana;
+}
+
+li a:hover {
+	background-color:#484848;
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	display: inline;
+	overflow: hidden;
+    background: #356C95;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: white;
+	list-style-type: none;
+	font-family: "Sans-serif", Verdana;
+}
+
+#image {
+    left: 0;
+    top: 50px
+}
+
+
+.container-box {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	width: 100%;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	height: 530px;
+	background-color: #52A1DD;
+    align-items: center;
+}
+
+.floating-text {
+    width: 100%;
+    color: white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Sans-serif", Verdana;
+    left: 0;
+    text-shadow: 3px 3px black;
+}
+
+#aboutme {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#welcome {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#contactme {
+    padding: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.footer {
+    text-align: ;
+    vertical-align: center;
+    background: #356C95;
+    padding: 10px;
+    color: white;
+    
+}
