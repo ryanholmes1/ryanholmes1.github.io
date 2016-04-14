@@ -110,11 +110,11 @@ ul {
     background: #356C95;
     padding: 10px;
     color: white;
-    
+    height: 50px;
 }
 
 .social {
     float: right;
-    background: #356C95;
+
     vertical-align: center;
 }
