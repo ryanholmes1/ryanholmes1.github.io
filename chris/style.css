@@ -116,5 +116,6 @@ ul {
 
 .social {
     float: right;
-    display: inline-block;
+    display: block;
+    position: absolute;
 }
