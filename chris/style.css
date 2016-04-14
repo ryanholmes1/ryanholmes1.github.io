@@ -111,9 +111,11 @@ ul {
     padding: 10px;
     color: white;
     float:  left;
+    width:  100%;
     
 }
 
 .social {
     float: right;
+    display: inline-block;
 }
